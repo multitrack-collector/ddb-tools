@@ -18,7 +18,6 @@ pip install -r requirements.txt
 ```
 python ./extract_wav.py --src_path ./XXX.ddb
 python ./extract_ddi.py --src_path ./XXX.ddi
-python ./rename_wav.py --work_dir ./XXX
 ```
 
 FRM2 files are not necessary for the wav workflow, so only run the following command if you have special desire for the extracted frm2 files:  
